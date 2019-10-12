@@ -1,0 +1,8 @@
+DROP DATABASE IF EXISTS movielist;
+CREATE DATABASE movielist;
+USE movielist;
+
+CREATE TABLE movies(
+  id int AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255)
+);
